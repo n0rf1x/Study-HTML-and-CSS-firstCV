@@ -1,0 +1,127 @@
+
+body {
+    background-color: #f1f1f1;
+    color: #0f141e;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.contact {
+    text-align: center;
+}
+.info{
+    display: flex;
+    margin-bottom: 20px; 
+}
+@media (max-width: 700px) {
+    .info{
+        text-align: center;
+        display: block;
+    }
+}
+a {
+    color: black;
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.textalign h1 {
+    margin-bottom: 10px;
+}
+a:active {
+   color: burlywood;
+}
+.ava { 
+    margin-left: 23px;
+    width: 220px;
+    border-radius: 47px;
+    box-shadow: 0px 0px 30px 0px rgb(0, 0, 0);
+}
+
+.infotext {
+    margin-left: 40px;
+}
+
+
+.info p{ 
+    color: #5a5c5b;
+    margin: 0;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 1px;
+    word-spacing: normal;
+}
+ .social {
+/*
+    background: royalblue;
+    padding-top: 10px;
+    padding-right: 17px;
+    padding-bottom: 10px;
+    padding-left: 17px; */
+    margin: auto;
+    padding-top: 30px;
+}
+.VSE {
+    max-width: 750px;
+    margin: auto;
+}
+
+/*.box-model >div { 
+    float: left; 
+    background: black;
+    height: 200px;
+    width: 25%;
+    box-sizing: border-box; 
+}  */
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.list {
+    padding: 0 20px;
+
+}
+h2 {
+    padding: 0;
+}
+ .list li {
+    color: rgb(153, 145, 145);
+    margin-bottom: 10px;
+ }
+
+.tabel {
+    width: 100%;
+
+}
+
+.tabel td{
+  padding-bottom: 10px;
+}
+dd {
+    margin: 0px;
+    padding: 10px;
+
+}
+.textalign {
+    margin-left: 40px
+}
